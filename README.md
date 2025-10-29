@@ -5,9 +5,11 @@ Being lightweight, fast, and scalable, Node.js is becoming a widely adopted plat
 ## Getting Started
 The repo includes the Dockerfile and docker-compose.yml necessary to set up the app and db instance, then connect them together.
 
-- Install [docker](https://docs.docker.com/installation/) and [docker compose](https://docs.docker.com/compose/install/)
+- Install [docker](https://docs.docker.com/installation/) ([Windows](https://apps.microsoft.com/detail/xp8cbj40xlbwkx?hl=en-GB&gl=GB), [Mac](https://docs.docker.com/desktop/setup/install/mac-install/), [Linux](https://docs.docker.com/desktop/setup/install/linux/))
+- Install [docker compose](https://docs.docker.com/compose/install/)
 - Clone this repository
 - Go to the downloaded directory
+- Start Docker Desktop App
 - Build the images:
    ```
    docker-compose build
